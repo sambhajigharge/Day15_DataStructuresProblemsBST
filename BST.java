@@ -42,4 +42,17 @@ public class BST {
         return myNode;
     }
 
+    public void printInorder(Node node) {
+        if (node == null) {
+            return;
+        }
+        printInorder(node.left);
+        System.out.print(node.data + "->");
+        printInorder(node.right);
+    }
+
+    public int size() {
+        return size;
+    }
 }
+
