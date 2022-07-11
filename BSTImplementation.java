@@ -7,7 +7,6 @@ public class BSTImplementation {
         root = tree.insert(root, 56);
         root = tree.insert(root, 30);
         root = tree.insert(root, 70);
-
         System.out.println(root);
     }
 }
